@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.inpursuitomoney'
+    namespace 'com.vitaliy.inpursuitomoney'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.inpursuitomoney"
+        applicationId "com.vitaliy.inpursuitomoney"
         minSdk 24
         targetSdk 33
         versionCode 1

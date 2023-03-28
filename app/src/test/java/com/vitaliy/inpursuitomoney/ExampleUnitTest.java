@@ -1,4 +1,4 @@
-package com.example.inpursuitomoney;
+package com.vitaliy.inpursuitomoney;
 
 import org.junit.Test;
 

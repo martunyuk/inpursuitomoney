@@ -1,4 +1,4 @@
-package com.example.inpursuitomoney;
+package com.vitaliy.inpursuitomoney;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import com.example.inpursuitomoney.databinding.ActivityMainBinding;
+import com.vitaliy.inpursuitomoney.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
