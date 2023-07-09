@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121522281271",
+    "project_id": "firstinpursuitofmoney",
+    "storage_bucket": "firstinpursuitofmoney.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121522281271:android:ce192c7eeaea468b4d58b2",
+        "android_client_info": {
+          "package_name": "com.vitaliy.inpursuitomoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121522281271-cmv1od25u5uubh1fnl802uv01qmvdj4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkYUnzYkwzgR4KY38PWyfMfZOf2DnNcSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121522281271-cmv1od25u5uubh1fnl802uv01qmvdj4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
