@@ -45,6 +45,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         );
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), channelId)
+                .setSmallIcon(R.mipmap.ic_launcher)
                 .setAutoCancel(true)
                 .setVibrate(new long[]{1000, 1000, 1000, 1000})
                 .setOnlyAlertOnce(true)

@@ -5,9 +5,12 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.vitaliy.inpursuitomoney.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +31,17 @@ public class MainActivity extends AppCompatActivity {
         binding.webView.setWebViewClient(new CustomWebViewClient());
 
         binding.webView.loadUrl(url);
+
+        FirebaseMessaging.getInstance().subscribeToTopic("gamestart")
+                .addOnCompleteListener(task -> {
+                    String msg = "Subscribed";
+                    if (!task.isSuccessful()) {
+                        msg = "Subscribe failed";
+                    }
+                    Log.d("mLog", msg);
+                    Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
+                });
+
     }
 
     private class CustomWebViewClient extends WebViewClient {
